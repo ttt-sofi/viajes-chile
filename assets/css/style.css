@@ -31,6 +31,12 @@
     padding: 10px;
 }
 
+hr{
+    border-width: 5px;
+    border-radius: 40px;
+    color: #01A48C;
+}
+
 /* Seccion Presentación */
 
 .desc{
@@ -91,5 +97,15 @@
     color: white;
 }
 
+/* Contact */
 
+.contact{
+    background-color:#ccc
+}
+
+/* footer */
+
+footer{
+    background-color: #01A48C;
+}
 
