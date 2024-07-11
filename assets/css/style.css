@@ -11,4 +11,27 @@
 .card img{
     height: 200px;
     width: 100%;
+    object-fit: cover;
 }
+
+.carousel-caption p{
+    padding-bottom:50px
+}
+
+.card {
+    width: 200px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translate3d(0, -5px, 0); /* Ligero desplazamiento hacia adelante */
+}
+
+.card .card-content {
+    padding: 10px;
+}
+
