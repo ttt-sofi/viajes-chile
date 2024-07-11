@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
+    <title>Chile Viajero</title>
+    <script src="assets/js/script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -37,9 +38,12 @@
             <div class="col-md-6">
                 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -52,11 +56,13 @@
                             <img src="assets/img/sur-3.jpg" class="d-block w-100" alt="Foto 3">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -64,8 +70,9 @@
             </div>
             <div class="btn-hero col-md-6 right-column">
                 <h1>Explora Chile</h1>
-                <p>Descubre la belleza y diversidad de Chile. Desde las áridas dunas del norte hasta los glaciares impresionantes del sur, cada rincón te espera con aventuras únicas.</p>
-                <a href="#tours" class="btn">Ver Tours</a>
+                <p>Descubre la belleza y diversidad de Chile. Desde las áridas dunas del norte hasta los glaciares
+                    impresionantes del sur, cada rincón te espera con aventuras únicas.</p>
+                    <button id="tours" class="btn btn-hero" type="button" data-bs-toggle="tooltip" data-bs-placement="right" title="Contáctanos">Ver Tours</button>
             </div>
         </div>
     </div>
@@ -74,18 +81,24 @@
     <section id="presentation" class="presentation bg-light py-5">
         <div class="">
             <div class="row d-flex justify-content-center">
-                <div class="desc col-md-3 mb-4">
+                <div class="desc col-md-3 mb-4 text-center">
                     <i class="fas fa-rocket fa-3x mb-4"></i>
-                    <p>Emprende una aventura inolvidable y explora los rincones más remotos de Chile. Desde los desiertos del norte hasta los glaciares del sur, cada viaje es una nueva oportunidad para descubrir maravillas naturales y experiencias únicas</p>
+                    <p>Emprende una aventura inolvidable y explora los rincones más remotos de Chile. Desde los
+                        desiertos del norte hasta los glaciares del sur, cada viaje es una nueva oportunidad para
+                        descubrir maravillas naturales y experiencias únicas</p>
                 </div>
-                <div class="desc col-md-3 mb-4">
+                <div class="desc col-md-3 mb-4 text-center">
                     <i class="fas fa-regular fa-location-dot fa-3x mb-3 "></i>
-                    <p>Descubre destinos increíbles en cada rincón de Chile. Visita emblemáticas ciudades como Santiago y Valparaíso, sumérgete en la naturaleza de la Patagonia, y maravíllate con la diversidad de paisajes y culturas que este país tiene para ofrecer</p>
+                    <p>Descubre destinos increíbles en cada rincón de Chile. Visita emblemáticas ciudades como Santiago
+                        y Valparaíso, sumérgete en la naturaleza de la Patagonia, y maravíllate con la diversidad de
+                        paisajes y culturas que este país tiene para ofrecer</p>
                 </div>
-                <div class="desc col-md-3 mb-4">
+                <div class="desc col-md-3 mb-4 text-center">
                     <i class="fas fa-users fa-3x mb-3"></i>
-                    <p>Vive experiencias inolvidables con amigos y familiares. Disfruta de actividades grupales, desde tours guiados hasta eventos locales, y crea recuerdos duraderos mientras compartes la belleza y riqueza cultural de Chile con tus seres queridos.</p>
-                </div>                 
+                    <p>Vive experiencias inolvidables con amigos y familiares. Disfruta de actividades grupales, desde
+                        tours guiados hasta eventos locales, y crea recuerdos duraderos mientras compartes la belleza y
+                        riqueza cultural de Chile con tus seres queridos.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -99,11 +112,21 @@
                     <div class="card h-100 shadow-sm">
                         <img src="assets/img/norte-1.jpg" class="card-img-top" alt="Destacado 1">
                         <div class="card-body">
-                            <h5 class="card-title">Torres del Paine</h5>
+                            <h5 class="card-title">Desierto de Atacama</h5>
                             <p class="card-text">
-                                <p>
-
-                                </p>    
+                                <p class="card-text">
+                                    El Desierto de Atacama en el norte de Chile, es uno de los lugares más áridos del mundo, conocido por sus paisajes surrealistas y cielos despejados ideales para la observación astronómica.
+                                    <br>
+                                    <ul class="list-unstyled">
+                                        <i class="fas fa-clock icon"></i> Duración: 4 días / 3 noches<br>
+                                        <i class="fas fa-map-marker-alt icon"></i> Ubicación: Región de Antofagasta, Chile<br>
+                                        <i class="fas fa-hiking icon"></i> Actividades: Excursiones a geysers, salares, valles y observación astronómica<br>
+                                        <i class="fas fa-suitcase icon"></i> Implementos: Ropa ligera, protector solar, cámara, binoculares<br>
+                                    </ul>
+                                </p>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-outline-primary">Conoce más</button>
+                                </div>
                             </p>
                         </div>
                     </div>
@@ -112,8 +135,19 @@
                     <div class="card h-100 shadow-sm">
                         <img src="assets/img/sur-1.jpg" class="card-img-top" alt="Destacado 1">
                         <div class="card-body">
-                            <h5 class="card-title">Producto 1</h5>
-                            <p class="card-text">Descripción breve del producto o servicio destacado.</p>
+                            <h5 class="card-title">Frutillar, Los Lagos</h5>
+                            <p class="card-text">Conocida por sus impresionantes vistas del volcán Osorno, Frutillar ofrece un ambiente tranquilo y pintoresco, ideal para relajarse y disfrutar del entorno.
+                                 <br>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-clock tour-icon"></i> Duración: 3 días</li>
+                                    <li><i class="fas fa-map tour-icon"></i> Locación: Frutillar, Región de Los Lagos, Chile</li>
+                                    <li><i class="fas fa-shoe-prints tour-icon"></i> Implementos:Calzado cómodo, ropa abrigada, cámara</li>
+                                    <li><i class="fas fa-utensils tour-icon"></i> Incluye: Desayunos, guías turísticos, entradas a museos</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-end">
+                            <button class="btn btn-outline-primary">Conoce más</button>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -123,12 +157,20 @@
                         <div class="card-body">
                             <h5 class="card-title">Torres del Paine</h5>
                             <p class="card-text">
+                                Las Torres del Paine, ubicadas en la región de Magallanes y de la Antártica Chilena, son uno de los destinos naturales más impresionantes y visitados de Chile.
+                                <br>
+                                <ul class="list-unstyled">
                                 <i class="fas fa-clock icon"></i> Duración: 5 días / 4 noches<br>
                                 <i class="fas fa-map-marker-alt icon"></i> Ubicación: Patagonia, Chile<br>
-                                <i class="fas fa-hiking icon"></i> Actividades: Trekking, observación de fauna y flora<br>
-                                <i class="fas fa-suitcase icon"></i> Implementos: Equipo de trekking, cámaras, binoculares<br>
-                                <i class="fas fa-users icon"></i> Grupo: Guiado en grupos pequeños para una experiencia personalizada
+                                <i class="fas fa-hiking icon"></i> Actividades: Trekking, observación de fauna y
+                                flora<br>
+                                <i class="fas fa-suitcase icon"></i> Implementos: Equipo de trekking, cámaras,
+                                binoculares<br>
+                            </ul>
                             </p>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-outline-primary">Conoce más</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -173,9 +215,8 @@
         </div>
     </footer>
 
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </body>
 
 </html>
