@@ -1,21 +1,17 @@
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/* navbar */
+
+.navbar {
+    background-color: #01A48C;
+}
+
+.nav-link{
+    color: white;
 }
 
 .card img{
-    height: 200px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
-}
-
-.carousel-caption p{
-    padding-bottom:50px
 }
 
 .card {
@@ -28,10 +24,72 @@
 
 .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: translate3d(0, -5px, 0); /* Ligero desplazamiento hacia adelante */
+    transform: translate3d(0, -10px, 0); /* Ligero desplazamiento hacia adelante */
 }
 
 .card .card-content {
     padding: 10px;
 }
+
+/* Seccion Presentación */
+
+.desc{
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white; 
+    margin-left: 30px;
+}
+
+.desc i{
+    color: #01A48C;
+}
+
+.desc p{
+    margin-top: 100px;
+}
+
+/* carousel */
+.container .carousel-item{
+    text-align: center;
+    height: 350px;
+    vertical-align: center;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    width: 100%; 
+    height: 400px; 
+    line-height: normal;
+}
+
+.hero {
+    height: 100%;
+    padding: 20px;
+}
+
+.hero .carousel-indicators [data-bs-target] {
+    background-color: #ffffff;
+}
+.hero .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+.hero .right-column h1 {
+    margin-bottom: 20px;
+}
+.hero .right-column p {
+    margin-bottom: 20px;
+}
+
+.btn-hero .btn {
+    background-color: #01a48c;
+    color: white;
+}
+
+
 
