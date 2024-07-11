@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#presentation">Presentación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured">Destacados</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="home" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url(assets/img/sur-1.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Bienvenido a Nuestro Sitio</h1>
+                    <p>Descubre lo mejor que tenemos para ofrecer</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url(assets/img/norte-1.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Explora Nuestros Servicios</h1>
+                    <p>Soluciones innovadoras para tus necesidades</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url(assets/img/sur-2.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Explora Nuestros Servicios</h1>
+                    <p>Soluciones innovadoras para tus necesidades</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de presentación -->
+    <section id="presentation" class="bg-light py-5 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-rocket fa-3x mb-3 text-primary"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-cogs fa-3x mb-3 text-primary"></i>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de destacados -->
+    <section id="featured" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Destacados</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/img/norte-1.jpg" class="card-img-top" alt="Destacado 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Descripción breve del producto o servicio destacado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/img/sur-3.jpg" class="card-img-top" alt="Destacado 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Descripción breve del producto o servicio destacado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/img/sur-1.jpg" class="card-img-top" alt="Destacado 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Descripción breve del producto o servicio destacado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/img/sur-2.jpg" class="card-img-top" alt="Destacado 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Descripción breve del producto o servicio destacado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contact" class="bg-dark text-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contáctanos</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     
+    <footer class="bg-secondary text-light py-4">
+        <div class="container text-center">
+            <div class="mb-3">
+                <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" class="text-light"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2023 Chile Viajero. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
