@@ -1,11 +1,15 @@
 /* navbar */
 
+.body{
+    background-color: #FFFAFA;
+}
+
 .navbar {
     background-color: #01A48C;
 }
 
 .nav-link{
-    color: white;
+    color: #FFFAFA;
 }
 
 .card img{
@@ -79,11 +83,11 @@ hr{
     background-color: #ffffff;
 }
 .hero .right-column {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    text-align: right;
+    text-align: right; */
 }
 .hero .right-column h1 {
     margin-bottom: 20px;
@@ -101,5 +105,10 @@ hr{
 
 footer{
     background-color: #01A48C;
+}
+
+.contact .btn{
+    background-color: #01A48C;
+    border: none;
 }
 
