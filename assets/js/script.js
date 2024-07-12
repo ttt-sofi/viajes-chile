@@ -6,7 +6,6 @@ $(document).ready(
 
         $('#tours').tooltip();
 
-
         $("a").on('click', function (event) {
             if (this.hash !== "") {
                 event.preventDefault();

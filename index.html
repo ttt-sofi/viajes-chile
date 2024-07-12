@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chile Viajero</title>
-    <script src="assets/js/script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
@@ -34,7 +33,7 @@
     <!-- Hero -->
 
     <div class="container container-fluid hero d-flex justify-content-center" id="home">
-        <div class="row w-100 mt-5 pt-5">
+        <div class="row w-100 my-5 pt-5">
             <div class="col-md-6">
                 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -68,45 +67,40 @@
                     </button>
                 </div>
             </div>
-            <div class="btn-hero col-md-6 right-column p">
-                <h1>Explora Chile</h1>
-                <p>Descubre la belleza y diversidad de Chile. Desde las áridas dunas del norte hasta los glaciares
-                    impresionantes del sur, cada rincón te espera con aventuras únicas.</p>
-                <button id="tours" class="btn btn-hero" type="button" data-bs-toggle="tooltip" data-bs-placement="right"
-                    title="Contáctanos">Ver Tours</button>
+            <div class="btn-hero col-md-6 right-column ">
+                <h1 class="mb-4 mt-3 ">Explora Chile</h1>
+                <h5 class="mb-4 ms-5 ps-5">Descubre la belleza y diversidad de Chile. Desde las áridas dunas del norte hasta los glaciares impresionantes del sur, cada rincón te espera con aventuras únicas.</h5>
+                <button id="tours" class="btn btn-hero btn-lg" type="button" data-bs-toggle="tooltip" data-bs-placement="right" title="Contáctanos">Tours disponibles</button>
             </div>
+            
+            
         </div>
     </div>
 
     <!-- Sección de presentación -->
-    <section id="presentation" class="presentation bg-light py-5">
+    <section id="presentation" class="presentation bg-light py-5 d-none d-md-block">
         <div class="container">
-            <div class="container row d-flex align-items-center justify-content-center mb-5 ">
+            <div class="container row d-flex align-items-center justify-content-center mb-5">
                 <h2 class="col-3">Quienes somos</h2>
                 <hr class="col-9 mt-3">
             </div>
             <div class="row d-flex justify-content-center">
                 <div class="desc col-md-3 mb-4 text-center">
                     <i class="fas fa-rocket fa-3x mb-4"></i>
-                    <p>Emprende una aventura inolvidable y explora los rincones más remotos de Chile. Desde los
-                        desiertos del norte hasta los glaciares del sur, cada viaje es una nueva oportunidad para
-                        descubrir maravillas naturales y experiencias únicas</p>
+                    <p>Emprende una aventura inolvidable y explora los rincones más remotos de Chile. Desde los desiertos del norte hasta los glaciares del sur, cada viaje es una nueva oportunidad para descubrir maravillas naturales y experiencias únicas.</p>
                 </div>
                 <div class="desc col-md-3 mb-4 text-center">
-                    <i class="fas fa-regular fa-location-dot fa-3x mb-3 "></i>
-                    <p>Descubre destinos increíbles en cada rincón de Chile. Visita emblemáticas ciudades como Santiago
-                        y Valparaíso, sumérgete en la naturaleza de la Patagonia, y maravíllate con la diversidad de
-                        paisajes y culturas que este país tiene para ofrecer</p>
+                    <i class="fas fa-regular fa-location-dot fa-3x mb-3"></i>
+                    <p>Descubre destinos increíbles en cada rincón de Chile. Visita emblemáticas ciudades como Santiago y Valparaíso, sumérgete en la naturaleza de la Patagonia, y maravíllate con la diversidad de paisajes y culturas que este país tiene para ofrecer.</p>
                 </div>
                 <div class="desc col-md-3 mb-4 text-center">
                     <i class="fas fa-users fa-3x mb-3"></i>
-                    <p>Vive experiencias inolvidables con amigos y familiares. Disfruta de actividades grupales, desde
-                        tours guiados hasta eventos locales, y crea recuerdos duraderos mientras compartes la belleza y
-                        riqueza cultural de Chile con tus seres queridos.</p>
+                    <p>Vive experiencias inolvidables con amigos y familiares. Disfruta de actividades grupales, desde tours guiados hasta eventos locales, y crea recuerdos duraderos mientras compartes la belleza y riqueza cultural de Chile con tus seres queridos.</p>
                 </div>
             </div>
         </div>
     </section>
+    
 
     <!-- Sección de destacados -->
     <section id="featured" class="py-5">
@@ -117,11 +111,10 @@
             </div>
             <div class="row  d-flex justify-content-center">
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card shadow-sm">
                         <img src="assets/img/norte-1.jpg" class="card-img-top" alt="Destacado 1">
                         <div class="card-body">
                             <h5 class="card-title">Desierto de Atacama</h5>
-                            <p class="card-text">
                             <p class="card-text">
                                 El Desierto de Atacama en el norte de Chile, es uno de los lugares más áridos del mundo,
                                 conocido por sus paisajes surrealistas y cielos despejados ideales para la observación
@@ -136,15 +129,14 @@
                                 binoculares<br>
                             </ul>
                             </p>
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-outline-primary">Conoce más</button>
+                            <div class="text-center">
+                                <button class="btn btn-outline-primary btn-lg">Conoce más</button>
                             </div>
-                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card  shadow-sm">
                         <img src="assets/img/sur-1.jpg" class="card-img-top" alt="Destacado 1">
                         <div class="card-body">
                             <h5 class="card-title">Frutillar, Los Lagos</h5>
@@ -161,14 +153,14 @@
                                     entradas a museos</li>
                             </ul>
                             </p>
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-outline-primary">Conoce más</button>
+                            <div class="text-center">
+                                <button class="btn btn-outline-primary btn-lg">Conoce más</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm">
+                    <div class="card  shadow-sm">
                         <img src="assets/img/sur-2.jpg" class="card-img-top" alt="Destacado 1">
                         <div class="card-body">
                             <h5 class="card-title">Torres del Paine</h5>
@@ -185,8 +177,8 @@
                                 binoculares<br>
                             </ul>
                             </p>
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-outline-primary">Conoce más</button>
+                            <div class="text-center">
+                                <button class="btn btn-outline-primary btn-lg">Conoce más</button>
                             </div>
                         </div>
                     </div>
@@ -196,19 +188,19 @@
     </section>
 
     <!-- Sección de contacto -->
-    <section id="contact" class="contact text-light py-5">
+    <section id="contact" class="contact bg-light text-dark py-5 px-3">
         <div class="container">
             <h2 class="text-center mb-5">Contáctanos</h2>
             <div class="row justify-content-center">
-                <div class="col-md-8">
+                <div class="col-md-6">
                     <form>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <input type="text" class="form-control" placeholder="Nombre">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <input type="email" class="form-control" placeholder="Email">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Enviar</button>
@@ -234,6 +226,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
