@@ -1,0 +1,33 @@
+.photo-col{
+    padding-left:5px;
+}
+
+.photo-img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.photo-description{
+    width:100%;
+}
+
+.photo-col{
+    position:relative;
+}
+
+.photo-col h3{
+    position:absolute;
+    bottom:40px;
+    left:40px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.photo-col h5{
+    position:absolute;
+    bottom:20px;
+    left:40px;
+    color: white;
+}

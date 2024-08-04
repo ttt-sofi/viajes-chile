@@ -1,0 +1,16 @@
+{
+  "name": "chile-viajero",
+  "version": "1.0.0",
+  "description": "Este proyecto es una página web para un sitio de viajes por Chile, que incluye una barra de navegación fija, un carrusel de imágenes, secciones de presentación y destacados, un formulario de contacto y un pie de página con enlaces a redes sociales.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass assets/scss:assets/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.8"
+  }
+}
